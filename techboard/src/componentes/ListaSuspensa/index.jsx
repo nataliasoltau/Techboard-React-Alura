@@ -7,6 +7,8 @@ export function ListaSuspensa (props) {
     <option value="tema2">{props.tema2}</option>
     <option value="tema3">{props.tema3}</option>
     <option value="tema4">{props.tema4}</option>
+    <option value="tema5">{props.tema5}</option>
+    <option value="tema6">{props.tema6}</option>
   </select>
     )
 }

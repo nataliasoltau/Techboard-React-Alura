@@ -3,7 +3,7 @@ import { TituloFormulario } from "../TituloFormulario"
 import { CampoFormulario } from "../CampoFormulario"
 import { LabelFormulario } from "../LabelFormulario"
 import { CampoDeEntrada } from "../CampoDeEntrada"
-import { ListaSuspensa } from "../../ListaSuspensa"
+import { ListaSuspensa } from "../ListaSuspensa"
 import { Botao } from "../../Botao"
 
 export function FormularioDeEvento () {
@@ -23,7 +23,7 @@ export function FormularioDeEvento () {
       </CampoFormulario>
       <CampoFormulario>
         <LabelFormulario htmlFor="temaEvento">Tema do evento</LabelFormulario>
-        <ListaSuspensa tema1="Front-end" tema2="Back-end" tema3="Full-stack" tema4="Mobile" />
+        <ListaSuspensa tema1="Front-end" tema2="Back-end" tema3="DevOps" tema4="Inteligencia Artificial" tema5="Data Science" tema6="Cloud" />
       </CampoFormulario>
       </div>
       <div className="acoes">
