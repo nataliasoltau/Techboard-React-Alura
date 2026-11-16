@@ -4,7 +4,7 @@ import { CampoFormulario } from "../CampoFormulario"
 import { LabelFormulario } from "../LabelFormulario"
 import { CampoDeEntrada } from "../CampoDeEntrada"
 import { ListaSuspensa } from "../ListaSuspensa"
-import { Botao } from "../../Botao"
+import { Botao } from "../Botao"
 
 export function FormularioDeEvento ({temas, aoSubmeter}) {
    function aoformsubmetido (formData) {
